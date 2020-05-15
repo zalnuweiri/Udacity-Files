@@ -1,2 +1,2 @@
-samples/*.csv
+*.csv
 .DS_Store
