@@ -16,11 +16,9 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-
     cities = ['chicago', 'chi', 'new york city', 'ny', 'nyc', 'washington', 'dc', 'was']
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
-
 
 
     while True:
@@ -36,7 +34,6 @@ def get_filters():
                 print("Sorry, we didn't understand that. Please input again.")
         else:
             print("Sorry, we don't have information on that city. Please input again.")
-
 
 
     while True:
@@ -56,6 +53,7 @@ def get_filters():
         else:
             print("Sorry, that's not an option. Please input again.")
 
+
     while True:
         day = input("What day would you like to analyze? (type 'all' for all days) ").lower()
         if day.lower() in days:
@@ -72,11 +70,6 @@ def get_filters():
                 print("Sorry, we didn't understand that. Please input again.")
         else:
             print("Sorry, that option isn't included. Please input again.")
-
-
-
-
-
 
     print('-'*40)
     return city_select, month, day
@@ -238,6 +231,7 @@ def display_data(df):
         print("Sorry, that's not an option. Please input again.")
         display_data(df)
 
+
 def examine_more(df):
     while True:
         more_data = input('Would you like to observe your options for the same city and filters you selected? (y/n) ').lower()
@@ -245,8 +239,6 @@ def examine_more(df):
             display_data(df)
         elif more_data.lower() == 'n':
             break
-
-
 
 
 def main():
