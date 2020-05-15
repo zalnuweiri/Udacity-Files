@@ -1,13 +1,12 @@
-**Final Version Control/Udacity Project**
+<h1>**Final Version Control/Udacity Project**
 
-Including commits and necessary edits
+<h2>Including commits and necessary edits
 
-Created filters and .csv readability
+*Created filters and .csv readability
+*Filters refined for data loading, time stats, station stats, trip duration stats, and user_stats
 
-Filters refined for data loading, time stats, station stats, trip duration stats, and user_stats
+*Added data display filter/option
 
-Added data display filter/option
+*Gave user opportunity to return to previously unselected data and select it
 
-Gave user opportunity to return to previously unselected data and select it
-
-Added extra user input that allowed user to verify selection, in case wrong selection was made.
+*Added extra user input that allowed user to verify selection, in case wrong selection was made.
