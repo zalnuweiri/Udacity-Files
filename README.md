@@ -1,4 +1,4 @@
-Final Version Control/Udacity Project
+**Final Version Control/Udacity Project**
 
 Including commits and necessary edits
 
