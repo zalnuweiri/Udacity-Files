@@ -1,8 +1,9 @@
-<h1>**Final Version Control/Udacity Project**
+<h1>Final Version Control/Udacity Project
 
 <h2>Including commits and necessary edits
 
 *Created filters and .csv readability
+
 *Filters refined for data loading, time stats, station stats, trip duration stats, and user_stats
 
 *Added data display filter/option
